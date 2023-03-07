@@ -52,7 +52,7 @@ fi
 
 echo '开始解压'
 
-unzip -o -d ${FILE_PATH}/${SERVER_NAME} ${SERVER_ZIP}
+unzip -o -d ${FILE_PATH}/${SERVER_NAME} ${FILE_PATH}/${SERVER_ZIP}
 
 cd ${FILE_PATH}/${SERVER_NAME} || exit
 
