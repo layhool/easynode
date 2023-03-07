@@ -11,9 +11,9 @@ echo '开始安装nvm'
 rm -rf /root/.nvm
 
 # 国内
-bash -c "$(curl -fsSL https://gitee.com/chaoszhu_0/nvm-cn/raw/master/install.sh)"
+# bash -c "$(curl -fsSL https://gitee.com/chaoszhu_0/nvm-cn/raw/master/install.sh)"
 # 国外
-# bash -c "$(curl -fsSL https://raw.githubusercontent.com/chaos-zhu/nvm-cn/master/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/chaos-zhu/nvm-cn/master/install.sh)"
 
 if [ $? != "0" ] ; then
  echo '安装失败'
